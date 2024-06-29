@@ -2,22 +2,34 @@
   "name": "@sequencemedia/ip",
   "version": "0.0.0",
   "description": "Resolve the internal or external IPv4 or IPv6 host address",
-  "main": "index.mjs",
-  "repository": {
-    "type": "git",
-    "url": "github.com/sequencemedia/ip"
-  },
   "keywords": [
     "IP",
     "IPv4",
     "IPv6"
   ],
-  "author": "jonathanperry@sequencemedia.net",
+  "main": "./index.mjs",
+  "type": "module",
+  "author": {
+    "name": "Jonathan Perry for Sequence Media Limited",
+    "email": "sequencemedia@sequencemedia.net",
+    "url": "http://sequencemedia.net"
+  },
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sequencemedia/ip.git"
+  },
+  "homepage": "https://github.com/sequencemedia/ip#readme",
+  "bugs": {
+    "url": "https://github.com/sequencemedia/ip/issues"
+  },
   "scripts": {
     "lint": "eslint . --ext .mjs,.cjs",
     "lint:fix": "npm run lint -- --fix",
     "prepare": "husky"
+  },
+  "dependencies": {
+    "debug": "^4.3.5"
   },
   "devDependencies": {
     "@babel/cli": "^7.24.7",
@@ -28,8 +40,5 @@
     "eslint": "8.57.0",
     "eslint-config-standard": "^17.1.0",
     "husky": "^9.0.11"
-  },
-  "dependencies": {
-    "debug": "^4.3.5"
   }
 }
