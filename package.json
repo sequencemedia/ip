@@ -1,0 +1,35 @@
+{
+  "name": "@sequencemedia/ip",
+  "version": "0.0.0",
+  "description": "Resolve the internal or external IPv4 or IPv6 host address",
+  "main": "index.mjs",
+  "repository": {
+    "type": "git",
+    "url": "github.com/sequencemedia/ip"
+  },
+  "keywords": [
+    "IP",
+    "IPv4",
+    "IPv6"
+  ],
+  "author": "jonathanperry@sequencemedia.net",
+  "license": "ISC",
+  "scripts": {
+    "lint": "eslint . --ext .mjs,.cjs",
+    "lint:fix": "npm run lint -- --fix",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.7",
+    "@babel/core": "^7.24.7",
+    "@babel/eslint-parser": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "core-js": "^3.37.1",
+    "eslint": "8.57.0",
+    "eslint-config-standard": "^17.1.0",
+    "husky": "^9.0.11"
+  },
+  "dependencies": {
+    "debug": "^4.3.5"
+  }
+}
