@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "@sequencemedia/eslint-config-standard": "^0.0.17",
-    "@sequencemedia/hooks": "^1.0.506",
+    "@sequencemedia/hooks": "^1.0.507",
     "eslint": "^9.8.0",
     "husky": "^9.1.3"
   }
