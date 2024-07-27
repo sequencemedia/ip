@@ -32,9 +32,9 @@
     "debug": "^4.3.5"
   },
   "devDependencies": {
-    "@sequencemedia/eslint-config-standard": "^0.0.16",
+    "@sequencemedia/eslint-config-standard": "^0.0.17",
     "@sequencemedia/hooks": "^1.0.506",
-    "eslint": "^9.7.0",
-    "husky": "^9.1.1"
+    "eslint": "^9.8.0",
+    "husky": "^9.1.3"
   }
 }
