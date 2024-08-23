@@ -32,8 +32,8 @@
     "debug": "^4.3.6"
   },
   "devDependencies": {
-    "@sequencemedia/eslint-config-standard": "^0.0.43",
-    "@sequencemedia/hooks": "^1.0.533",
+    "@sequencemedia/eslint-config-standard": "^0.0.44",
+    "@sequencemedia/hooks": "^1.0.534",
     "eslint": "^9.9.0",
     "husky": "^9.1.5"
   }
