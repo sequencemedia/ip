@@ -1,6 +1,6 @@
 {
   "name": "@sequencemedia/ip",
-  "version": "1.0.163",
+  "version": "1.0.164",
   "description": "Resolve the internal or external IPv4 or IPv6 host address",
   "keywords": [
     "IP",
